@@ -86,3 +86,14 @@ def generate_launch_description():
             condition=IfCondition(use_rviz),
             output='screen'),
     ])
+
+#       Node(
+#           package='nav2_bringup',
+#           executable='nav2_planner',
+#           name='global_planner',
+#           output='screen',
+#           parameters=[
+#           {'planner_plugin': 'nav2_navfn_planner/NavfnPlanner'},  # Or 'global_planner/GlobalPlanner'
+#           'path_to_your_config/global_planner_params.yaml',
+#    ],
+#   )

@@ -1,0 +1,11 @@
+global_planner:
+  planner_type: "GlobalPlanner"  # Uses A* or Dijkstra
+  use_dijkstra: false           # Set to `false` for A*, `true` for Dijkstra
+  use_grid_path: false          # Smoother gradient path (false) vs grid-aligned (true)
+  allow_unknown: true           # Allow planning through unknown space
+  default_tolerance: 0.1        # Goal tolerance (meters)
+  publish_scale: 100            # Visualization scaling
+  old_navfn_behavior: false     # Use improved potential field calculations
+  lethal_cost: 253              # Obstacle threshold (253 in costmap)
+  neutral_cost: 50              # Neutral cost value
+  cost_factor: 0.55             # Cost multiplier (lower = favors longer but safer paths)
