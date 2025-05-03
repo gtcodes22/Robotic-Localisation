@@ -6,3 +6,6 @@ Autonomous Mobile Robots (AMR) use algorithms and electronic components like sen
 
 ### Project Linktree (Multimedia, Logbook, etc)
 https://linktr.ee/resqbot
+
+### Code Inspired By:
+https://github.com/ROBOTIS-GIT/turtlebot3
